@@ -1,14 +1,22 @@
 To-do list by Odin Projet :)
 
     Numbers, Operators and Expressions:
-    []  What's the difference between an Integer and a Float?
-    []  Why should you be careful when converting back and forth between integers and floats?
-    []  What's the difference between =, ==, and ===?
-    []  How do you do exponents in Ruby?
-    []  What is a range?
-    []  How do you create a range?
-    []  What's the difference between (1..3) and (1...3)?
-    []  What are three ways to create a range?
+    [x]  What's the difference between an Integer and a Float?
+	R -  Integers are... Integers? 1,2,3,4,5,6,7... and float is 2.23224, 2323.23232, 34552.23...
+    [x]  Why should you be careful when converting back and forth between integers and floats?
+	R - When we have a float and convert him to an integer, we cut part of the number. So, 2.234.to_i == 2 (0.234 is missing :p)
+    [x]  What's the difference between =, ==, and ===?
+	R - = to assignment like A = 10. == to compare two values, like IF a == b. === will asks if the right thing is member or a part of the thing on the left. "Hello" === /ello/
+    [x]  How do you do exponents in Ruby?
+	R - use **. 2**2 == 2^2 on math
+    [x]  What is a range?
+	R - Range is a gap of two numbers, like (0..5) is the range of 0 to 5
+    [x]  How do you create a range?
+	R - (start_interval..end_interval). (a...b) will exclude b range of a to b-1
+    [x]  What's the difference between (1..3) and (1...3)?
+	R - answer is above. 1...3 will exclude 3 of the range
+    [x]  What are three ways to create a range?
+	R - i don't know if are these three ways, but i know 1..3, 1...3, Range.new(1,3)
 
     Strings:
     []  What's the difference between single and double quotes?
