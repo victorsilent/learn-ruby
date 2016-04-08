@@ -34,15 +34,11 @@ To-do list by Odin Projet :)
     [x]  How do you access a specific character or substring?
 	R - string[index]
     [x]  How do you split up strings into arrays?
-	R - string.split('')
-    [x]  How are strings and arrays similar?
-	R - strings are something like a array of characteres.
-    [x]  How do you get and clean up user input on the command line?
-	R - use "gets". player = gets
-    [x]  What does it mean that strings are "mutable" and why care?
-	R - I can modify strings with methos, like string.captalize!
-    [x]  What is a symbol?
-	R - 
+	R - sintr.split('')
+    []  How are strings and arrays similar?
+    []  How do you get and clean up user input on the command line?
+    []  What does it mean that strings are "mutable" and why care?
+    []  What is a symbol?
     []  How is a symbol different from a string?
     []  What is a Regular Expression (RegEx)?
     []  How can you center or right-justify a string?

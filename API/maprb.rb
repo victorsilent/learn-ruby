@@ -1,0 +1,22 @@
+def stock_picker(array)
+    ganhos = 0
+    compra = 0
+    days = Array.new
+    for i in 0..array.length-2
+        for j in i..array.length-2
+            compra = array[i]
+            venda = array[j+1]
+            if venda-compra > ganhos
+                ganhos = venda-compra
+                days.pop
+                days.pop
+                days << i
+                days << j+1
+            end
+        end
+    end
+    days
+end
+
+
+p stock_picker([1,90,0,100])

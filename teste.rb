@@ -1,0 +1,2 @@
+teste = gets
+puts teste
