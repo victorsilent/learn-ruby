@@ -1,0 +1,19 @@
+<h3><%="#{@person.name} #{@person.last_name} - #{@person.age}"%></h3>
+<%= link_to 'Edit',edit_person_path%>
+<%= link_to 'Delete',@person,method:'delete'%>
+<br>
+<%if @person.love.nil?%>
+  <h3><%=link_to 'Add Lover',new_person_lofe_path(@person)%></h3>
+<%else%>
+  <%="#{@person.name} loves #{@person.love.name}"%>
+<%end%>
+<h4>My Pets</h4>
+<%@person.pets.each do |pet|%>
+  <%="#{pet.name}-#{pet.race}"%>
+  <br>
+<%end%>
+
+<br>
+<%= render 'pets/form'%>
+
+<br>

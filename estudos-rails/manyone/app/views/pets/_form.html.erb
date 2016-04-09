@@ -1,0 +1,9 @@
+<%= form_for [@person,@person.pets.build] do |f| %>
+  <%= f.label :name%>
+  <%= f.text_field :name%>
+  <br>
+  <%= f.label :race%>
+  <%= f.text_field :race%>
+  <br>
+  <%=f.submit%>
+<% end %>

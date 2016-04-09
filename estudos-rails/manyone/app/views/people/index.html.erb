@@ -1,0 +1,5 @@
+<h1>People#index</h1>
+<%@people.each do |person|%>
+  <%=link_to "#{person.name} #{person.last_name}",person_path(person)%>
+  <%= "- #{person.age}"%>
+<%end%>
